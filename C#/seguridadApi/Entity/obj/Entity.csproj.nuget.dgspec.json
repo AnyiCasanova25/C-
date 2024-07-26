@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SENA\\Desktop\\C#\\seguridadApi\\Entity\\Entity.csproj": {}
+    "C:\\Users\\SENA\\Desktop\\C-\\C#\\seguridadApi\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SENA\\Desktop\\C#\\seguridadApi\\Entity\\Entity.csproj": {
+    "C:\\Users\\SENA\\Desktop\\C-\\C#\\seguridadApi\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SENA\\Desktop\\C#\\seguridadApi\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\SENA\\Desktop\\C-\\C#\\seguridadApi\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\SENA\\Desktop\\C#\\seguridadApi\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\seguridadApi\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\SENA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SENA\\Desktop\\C#\\seguridadApi\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\seguridadApi\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SENA\\AppData\\Roaming\\NuGet\\NuGet.Config",

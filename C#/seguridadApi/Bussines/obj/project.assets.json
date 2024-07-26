@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SENA\\Desktop\\C#\\seguridadApi\\Bussines\\Bussines.csproj",
+      "projectUniqueName": "C:\\Users\\SENA\\Desktop\\C-\\C#\\seguridadApi\\Bussines\\Bussines.csproj",
       "projectName": "Bussines",
-      "projectPath": "C:\\Users\\SENA\\Desktop\\C#\\seguridadApi\\Bussines\\Bussines.csproj",
+      "projectPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\seguridadApi\\Bussines\\Bussines.csproj",
       "packagesPath": "C:\\Users\\SENA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SENA\\Desktop\\C#\\seguridadApi\\Bussines\\obj\\",
+      "outputPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\seguridadApi\\Bussines\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SENA\\AppData\\Roaming\\NuGet\\NuGet.Config",

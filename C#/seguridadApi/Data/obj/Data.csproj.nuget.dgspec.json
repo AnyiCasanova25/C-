@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SENA\\Desktop\\C#\\seguridadApi\\Data\\Data.csproj": {}
+    "C:\\Users\\SENA\\Desktop\\C-\\C#\\seguridadApi\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SENA\\Desktop\\C#\\seguridadApi\\Data\\Data.csproj": {
+    "C:\\Users\\SENA\\Desktop\\C-\\C#\\seguridadApi\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SENA\\Desktop\\C#\\seguridadApi\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\SENA\\Desktop\\C-\\C#\\seguridadApi\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\SENA\\Desktop\\C#\\seguridadApi\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\seguridadApi\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\SENA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SENA\\Desktop\\C#\\seguridadApi\\Data\\obj\\",
+        "outputPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\seguridadApi\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SENA\\AppData\\Roaming\\NuGet\\NuGet.Config",

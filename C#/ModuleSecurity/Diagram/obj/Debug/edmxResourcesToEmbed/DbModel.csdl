@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="DbModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="DbModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PersonSet" EntityType="DbModel.Person" />
+    <EntitySet Name="UserSet" EntityType="DbModel.User" />
+    <EntitySet Name="UserRoleSet" EntityType="DbModel.UserRole" />
+    <EntitySet Name="RoleSet" EntityType="DbModel.Role" />
+    <EntitySet Name="RoleViewSet" EntityType="DbModel.RoleView" />
+    <EntitySet Name="ViewSet" EntityType="DbModel.View" />
+    <EntitySet Name="ModuleSet" EntityType="DbModel.Module" />
+  </EntityContainer>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="First_name" Type="String" Nullable="false" />
+    <Property Name="Last_name" Type="String" Nullable="false" />
+    <Property Name="Email" Type="String" Nullable="false" />
+    <Property Name="Addres" Type="String" Nullable="false" />
+    <Property Name="TypeDocument" Type="String" Nullable="false" />
+    <Property Name="Document" Type="Int16" Nullable="false" />
+    <Property Name="Birth_of_date" Type="DateTime" Nullable="false" />
+    <Property Name="CreatedAt" Type="String" Nullable="false" />
+    <Property Name="UpdatedAt" Type="String" Nullable="false" />
+    <Property Name="DeletedAt" Type="String" Nullable="false" />
+    <Property Name="Phone" Type="Int16" Nullable="false" />
+    <Property Name="State" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" />
+    <Property Name="CreatedAt" Type="String" Nullable="false" />
+    <Property Name="UpdatedAt" Type="String" Nullable="false" />
+    <Property Name="DeletedAt" Type="String" Nullable="false" />
+    <Property Name="State" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CreatedAt" Type="String" Nullable="false" />
+    <Property Name="UpdatedAt" Type="String" Nullable="false" />
+    <Property Name="DeletedAt" Type="String" Nullable="false" />
+    <Property Name="State" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Description" Type="String" Nullable="false" />
+    <Property Name="CreatedAt" Type="String" Nullable="false" />
+    <Property Name="UpdatedAt" Type="String" Nullable="false" />
+    <Property Name="DeletedAt" Type="String" Nullable="false" />
+    <Property Name="State" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RoleView">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CreatedAt" Type="String" Nullable="false" />
+    <Property Name="UpdatedAt" Type="String" Nullable="false" />
+    <Property Name="DeletedAt" Type="String" Nullable="false" />
+    <Property Name="State" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="View">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Description" Type="String" Nullable="false" />
+    <Property Name="CreatedAt" Type="String" Nullable="false" />
+    <Property Name="UpdatedAt" Type="String" Nullable="false" />
+    <Property Name="DeletedAt" Type="String" Nullable="false" />
+    <Property Name="State" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Module">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" Nullable="false" />
+    <Property Name="CreatedAt" Type="String" Nullable="false" />
+    <Property Name="UpdatedAt" Type="String" Nullable="false" />
+    <Property Name="DeletedAt" Type="String" Nullable="false" />
+    <Property Name="State" Type="Boolean" Nullable="false" />
+  </EntityType>
+</Schema>

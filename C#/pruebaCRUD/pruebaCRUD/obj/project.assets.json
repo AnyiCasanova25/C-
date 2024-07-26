@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SENA\\Desktop\\C#\\pruebaCRUD\\pruebaCRUD\\pruebaCRUD.csproj",
+      "projectUniqueName": "C:\\Users\\SENA\\Desktop\\C-\\C#\\pruebaCRUD\\pruebaCRUD\\pruebaCRUD.csproj",
       "projectName": "pruebaCRUD",
-      "projectPath": "C:\\Users\\SENA\\Desktop\\C#\\pruebaCRUD\\pruebaCRUD\\pruebaCRUD.csproj",
+      "projectPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\pruebaCRUD\\pruebaCRUD\\pruebaCRUD.csproj",
       "packagesPath": "C:\\Users\\SENA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SENA\\Desktop\\C#\\pruebaCRUD\\pruebaCRUD\\obj\\",
+      "outputPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\pruebaCRUD\\pruebaCRUD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SENA\\AppData\\Roaming\\NuGet\\NuGet.Config",
