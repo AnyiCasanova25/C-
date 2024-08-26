@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\pruebaCRUD\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FA6CFB-9247-432C-903E-B68C1292F006}|pruebaCRUD\\pruebaCRUD.csproj|c:\\users\\sena\\desktop\\c-\\c#\\pruebacrud\\pruebacrud\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4FA6CFB-9247-432C-903E-B68C1292F006}|pruebaCRUD\\pruebaCRUD.csproj|solutionrelative:pruebacrud\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\pruebaCRUD\\pruebaCRUD\\Categoria.cs",
+              "RelativeDocumentMoniker": "pruebaCRUD\\Categoria.cs",
+              "ToolTip": "C:\\Users\\SENA\\Desktop\\C-\\C#\\pruebaCRUD\\pruebaCRUD\\Categoria.cs",
+              "RelativeToolTip": "pruebaCRUD\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T19:30:18.062Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

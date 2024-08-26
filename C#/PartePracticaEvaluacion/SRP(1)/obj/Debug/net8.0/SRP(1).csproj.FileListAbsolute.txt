@@ -1,0 +1,15 @@
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\bin\Debug\net8.0\SRP(1).exe
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\bin\Debug\net8.0\SRP(1).deps.json
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\bin\Debug\net8.0\SRP(1).runtimeconfig.json
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\bin\Debug\net8.0\SRP(1).dll
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\bin\Debug\net8.0\SRP(1).pdb
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\obj\Debug\net8.0\SRP(1).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\obj\Debug\net8.0\SRP(1).AssemblyInfoInputs.cache
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\obj\Debug\net8.0\SRP(1).AssemblyInfo.cs
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\obj\Debug\net8.0\SRP(1).csproj.CoreCompileInputs.cache
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\obj\Debug\net8.0\SRP(1).sourcelink.json
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\obj\Debug\net8.0\SRP(1).dll
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\obj\Debug\net8.0\refint\SRP(1).dll
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\obj\Debug\net8.0\SRP(1).pdb
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\obj\Debug\net8.0\SRP(1).genruntimeconfig.cache
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\SRP(1)\obj\Debug\net8.0\ref\SRP(1).dll

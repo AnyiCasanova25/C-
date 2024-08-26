@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\PartePracticaEvaluacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32639E1D-29EA-4B66-BBD1-B5A208350793}|PruebaPractica\\PruebaPractica.csproj|c:\\users\\sena\\desktop\\c-\\c#\\partepracticaevaluacion\\pruebapractica\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32639E1D-29EA-4B66-BBD1-B5A208350793}|PruebaPractica\\PruebaPractica.csproj|solutionrelative:pruebapractica\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32639E1D-29EA-4B66-BBD1-B5A208350793}|PruebaPractica\\PruebaPractica.csproj|c:\\users\\sena\\desktop\\c-\\c#\\partepracticaevaluacion\\pruebapractica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32639E1D-29EA-4B66-BBD1-B5A208350793}|PruebaPractica\\PruebaPractica.csproj|solutionrelative:pruebapractica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\PartePracticaEvaluacion\\PruebaPractica\\Empleado.cs",
+              "RelativeDocumentMoniker": "PruebaPractica\\Empleado.cs",
+              "ToolTip": "C:\\Users\\SENA\\Desktop\\C-\\C#\\PartePracticaEvaluacion\\PruebaPractica\\Empleado.cs",
+              "RelativeToolTip": "PruebaPractica\\Empleado.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T21:56:10.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\PartePracticaEvaluacion\\PruebaPractica\\Program.cs",
+              "RelativeDocumentMoniker": "PruebaPractica\\Program.cs",
+              "ToolTip": "C:\\Users\\SENA\\Desktop\\C-\\C#\\PartePracticaEvaluacion\\PruebaPractica\\Program.cs",
+              "RelativeToolTip": "PruebaPractica\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T21:53:36.597Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

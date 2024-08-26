@@ -1,0 +1,15 @@
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\bin\Debug\net8.0\OCP(2).exe
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\bin\Debug\net8.0\OCP(2).deps.json
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\bin\Debug\net8.0\OCP(2).runtimeconfig.json
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\bin\Debug\net8.0\OCP(2).dll
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\bin\Debug\net8.0\OCP(2).pdb
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\obj\Debug\net8.0\OCP(2).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\obj\Debug\net8.0\OCP(2).AssemblyInfoInputs.cache
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\obj\Debug\net8.0\OCP(2).AssemblyInfo.cs
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\obj\Debug\net8.0\OCP(2).csproj.CoreCompileInputs.cache
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\obj\Debug\net8.0\OCP(2).sourcelink.json
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\obj\Debug\net8.0\OCP(2).dll
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\obj\Debug\net8.0\refint\OCP(2).dll
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\obj\Debug\net8.0\OCP(2).pdb
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\obj\Debug\net8.0\OCP(2).genruntimeconfig.cache
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\OCP(2)\obj\Debug\net8.0\ref\OCP(2).dll

@@ -1,0 +1,15 @@
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\bin\Debug\net8.0\ISP(4).exe
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\bin\Debug\net8.0\ISP(4).deps.json
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\bin\Debug\net8.0\ISP(4).runtimeconfig.json
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\bin\Debug\net8.0\ISP(4).dll
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\bin\Debug\net8.0\ISP(4).pdb
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\obj\Debug\net8.0\ISP(4).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\obj\Debug\net8.0\ISP(4).AssemblyInfoInputs.cache
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\obj\Debug\net8.0\ISP(4).AssemblyInfo.cs
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\obj\Debug\net8.0\ISP(4).csproj.CoreCompileInputs.cache
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\obj\Debug\net8.0\ISP(4).sourcelink.json
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\obj\Debug\net8.0\ISP(4).dll
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\obj\Debug\net8.0\refint\ISP(4).dll
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\obj\Debug\net8.0\ISP(4).pdb
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\obj\Debug\net8.0\ISP(4).genruntimeconfig.cache
+C:\Users\SENA\Desktop\C-\C#\PartePracticaEvaluacion\ISP(4)\obj\Debug\net8.0\ref\ISP(4).dll
