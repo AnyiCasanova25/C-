@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\bussines\\implements\\userrolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|solutionrelative:bussines\\implements\\userrolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\bussines\\implements\\viewbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|solutionrelative:bussines\\implements\\viewbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\bussines\\interfaces\\iuserrolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|solutionrelative:bussines\\interfaces\\iuserrolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\bussines\\interfaces\\ipersonbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|solutionrelative:bussines\\interfaces\\ipersonbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\bussines\\interfaces\\irolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|solutionrelative:bussines\\interfaces\\irolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\bussines\\interfaces\\iroleviewbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|solutionrelative:bussines\\interfaces\\iroleviewbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\bussines\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|solutionrelative:bussines\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\bussines\\implements\\userrolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|solutionrelative:bussines\\implements\\userrolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65EF3BA3-5925-4389-8502-3A7DECF93DB7}|Entity\\Entity.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\entity\\model\\security\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|solutionrelative:bussines\\implements\\personbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\bussines\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|solutionrelative:bussines\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{65EF3BA3-5925-4389-8502-3A7DECF93DB7}|Entity\\Entity.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\entity\\model\\security\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65EF3BA3-5925-4389-8502-3A7DECF93DB7}|Entity\\Entity.csproj|solutionrelative:entity\\model\\security\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,16 +55,8 @@
       "RelativeMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|solutionrelative:bussines\\implements\\roleviewbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\bussines\\interfaces\\iroleviewbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|solutionrelative:bussines\\interfaces\\iroleviewbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{65EF3BA3-5925-4389-8502-3A7DECF93DB7}|Entity\\Entity.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\entity\\model\\security\\roleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65EF3BA3-5925-4389-8502-3A7DECF93DB7}|Entity\\Entity.csproj|solutionrelative:entity\\model\\security\\roleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\bussines\\interfaces\\irolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|solutionrelative:bussines\\interfaces\\irolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65EF3BA3-5925-4389-8502-3A7DECF93DB7}|Entity\\Entity.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\entity\\model\\security\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{65EF3BA3-5925-4389-8502-3A7DECF93DB7}|Entity\\Entity.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\entity\\dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65EF3BA3-5925-4389-8502-3A7DECF93DB7}|Entity\\Entity.csproj|solutionrelative:entity\\dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\bussines\\interfaces\\ipersonbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7762BCEF-EB4D-40F8-AFCA-009F5B17C738}|Bussines\\Bussines.csproj|solutionrelative:bussines\\interfaces\\ipersonbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65EF3BA3-5925-4389-8502-3A7DECF93DB7}|Entity\\Entity.csproj|c:\\users\\sena\\desktop\\c-\\c#\\modulesecurity\\entity\\model\\security\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,11 +86,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "PersonBusiness.cs",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Implements\\PersonBusiness.cs",
               "RelativeDocumentMoniker": "Bussines\\Implements\\PersonBusiness.cs",
@@ -99,44 +103,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Implements\\ViewBusiness.cs",
+              "RelativeDocumentMoniker": "Bussines\\Implements\\ViewBusiness.cs",
+              "ToolTip": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Implements\\ViewBusiness.cs",
+              "RelativeToolTip": "Bussines\\Implements\\ViewBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T13:46:38.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "IUserRoleBusiness.cs",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Interfaces\\IUserRoleBusiness.cs",
               "RelativeDocumentMoniker": "Bussines\\Interfaces\\IUserRoleBusiness.cs",
               "ToolTip": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Interfaces\\IUserRoleBusiness.cs",
               "RelativeToolTip": "Bussines\\Interfaces\\IUserRoleBusiness.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA/AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T18:42:43.614Z"
+              "WhenOpened": "2024-08-26T18:42:43.614Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Entity\\Model\\Security\\UserRole.cs",
-              "RelativeDocumentMoniker": "Entity\\Model\\Security\\UserRole.cs",
-              "ToolTip": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Entity\\Model\\Security\\UserRole.cs",
-              "RelativeToolTip": "Entity\\Model\\Security\\UserRole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T18:35:15.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "UserRoleBusiness.cs",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Implements\\UserRoleBusiness.cs",
               "RelativeDocumentMoniker": "Bussines\\Implements\\UserRoleBusiness.cs",
               "ToolTip": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Implements\\UserRoleBusiness.cs",
               "RelativeToolTip": "Bussines\\Implements\\UserRoleBusiness.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAsAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T18:32:40.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "IUserBusiness.cs",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Interfaces\\IUserBusiness.cs",
               "RelativeDocumentMoniker": "Bussines\\Interfaces\\IUserBusiness.cs",
@@ -144,23 +150,12 @@
               "RelativeToolTip": "Bussines\\Interfaces\\IUserBusiness.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T18:31:36.111Z"
+              "WhenOpened": "2024-08-26T18:31:36.111Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Entity\\Model\\Security\\User.cs",
-              "RelativeDocumentMoniker": "Entity\\Model\\Security\\User.cs",
-              "ToolTip": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Entity\\Model\\Security\\User.cs",
-              "RelativeToolTip": "Entity\\Model\\Security\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T18:25:27.94Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "UserBusiness.cs",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Implements\\UserBusiness.cs",
               "RelativeDocumentMoniker": "Bussines\\Implements\\UserBusiness.cs",
@@ -172,19 +167,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "IRoleViewBusiness.cs",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Interfaces\\IRoleViewBusiness.cs",
               "RelativeDocumentMoniker": "Bussines\\Interfaces\\IRoleViewBusiness.cs",
               "ToolTip": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Interfaces\\IRoleViewBusiness.cs",
               "RelativeToolTip": "Bussines\\Interfaces\\IRoleViewBusiness.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T18:22:05.485Z"
+              "WhenOpened": "2024-08-26T18:22:05.485Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "RoleView.cs",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Entity\\Model\\Security\\RoleView.cs",
               "RelativeDocumentMoniker": "Entity\\Model\\Security\\RoleView.cs",
@@ -196,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "RoleViewBusiness.cs",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Implements\\RoleViewBusiness.cs",
               "RelativeDocumentMoniker": "Bussines\\Implements\\RoleViewBusiness.cs",
@@ -208,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "IRoleBusiness.cs",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Interfaces\\IRoleBusiness.cs",
               "RelativeDocumentMoniker": "Bussines\\Interfaces\\IRoleBusiness.cs",
@@ -216,11 +212,49 @@
               "RelativeToolTip": "Bussines\\Interfaces\\IRoleBusiness.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T18:04:24.307Z"
+              "WhenOpened": "2024-08-26T18:04:24.307Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
+              "Title": "IPersonBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Interfaces\\IPersonBusiness.cs",
+              "RelativeDocumentMoniker": "Bussines\\Interfaces\\IPersonBusiness.cs",
+              "ToolTip": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Interfaces\\IPersonBusiness.cs",
+              "RelativeToolTip": "Bussines\\Interfaces\\IPersonBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T17:51:36.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Entity\\Model\\Security\\User.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Security\\User.cs",
+              "ToolTip": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Entity\\Model\\Security\\User.cs",
+              "RelativeToolTip": "Entity\\Model\\Security\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T18:25:27.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Entity\\Model\\Security\\UserRole.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Security\\UserRole.cs",
+              "ToolTip": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Entity\\Model\\Security\\UserRole.cs",
+              "RelativeToolTip": "Entity\\Model\\Security\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T18:35:15.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Entity\\Model\\Security\\Role.cs",
               "RelativeDocumentMoniker": "Entity\\Model\\Security\\Role.cs",
@@ -232,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "RoleDto.cs",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Entity\\DTO\\RoleDto.cs",
               "RelativeDocumentMoniker": "Entity\\DTO\\RoleDto.cs",
@@ -244,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "RoleBusiness.cs",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Implements\\RoleBusiness.cs",
               "RelativeDocumentMoniker": "Bussines\\Implements\\RoleBusiness.cs",
@@ -256,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Entity\\Model\\Security\\Person.cs",
               "RelativeDocumentMoniker": "Entity\\Model\\Security\\Person.cs",
@@ -268,19 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IPersonBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Interfaces\\IPersonBusiness.cs",
-              "RelativeDocumentMoniker": "Bussines\\Interfaces\\IPersonBusiness.cs",
-              "ToolTip": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Bussines\\Interfaces\\IPersonBusiness.cs",
-              "RelativeToolTip": "Bussines\\Interfaces\\IPersonBusiness.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T17:51:36.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "IPersonData.cs",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Data\\Interfaces\\IPersonData.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\IPersonData.cs",
@@ -292,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "DbModel.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Diagram\\DbModel.edmx",
               "RelativeDocumentMoniker": "Diagram\\DbModel.edmx",

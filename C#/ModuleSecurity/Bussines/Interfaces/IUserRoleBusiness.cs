@@ -13,8 +13,8 @@ namespace Bussines.Interfaces
         public Task Delete(int id);
         public Task<IEnumerable<UserRoleDto>> GetAll();
         public Task<IEnumerable<DataSelectDto>> GetAllSelect();
-        public Task<UserRole> GetById(int id);
-        public Task<UserRole> Save(UserRole entity);
-        public Task Update(UserRole entity);
+        public Task<UserRoleDto> GetById(int id);
+        public Task<UserRoleDto> Save(UserRoleDto entity);
+        public Task Update(UserRoleDto entity);
     }
 }

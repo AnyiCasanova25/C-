@@ -52,6 +52,12 @@ namespace Bussines.Implements
             viewDto.State = view.State;
             return viewDto;
         }
+
+        public Task<ViewDto> GetByName(string name)
+        {
+            throw new NotImplementedException();
+        }
+
         public View mapData(View view, ViewDto entity)
         {
             view.Id = entity.Id;
@@ -81,6 +87,11 @@ namespace Bussines.Implements
             }
             view = this.mapData(view, entity);
             await this.data.Update(view);
+        }
+
+        Task<ViewDto> IViewBusiness.Save(ViewDto entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }
