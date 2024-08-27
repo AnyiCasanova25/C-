@@ -1,4 +1,5 @@
-﻿using Entity.Model.Security;
+﻿using Entity.DTO;
+using Entity.Model.Security;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace Data.Interfaces
     {
         public Task Delete(int id);
         public Task<IEnumerable<RoleView>> GetAll();
+        Task<IEnumerable<DataSelectDto>> GetAllSelect();
 
         //public Task<IEnumerable<DataSelectDto>> GetAllSelect();
         public Task<RoleView> GetById(int id);

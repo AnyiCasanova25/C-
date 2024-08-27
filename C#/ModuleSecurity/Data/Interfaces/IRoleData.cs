@@ -1,4 +1,5 @@
-﻿using Entity.Model.Security;
+﻿using Entity.DTO;
+using Entity.Model.Security;
 
 namespace Data.Interfaces
 {
@@ -6,6 +7,7 @@ namespace Data.Interfaces
     {
         public Task Delete(int id);
         public Task<IEnumerable<Role>> GetAll();
+        Task<IEnumerable<DataSelectDto>> GetAllSelect();
 
         //public Task<IEnumerable<DataSelectDto>> GetAllSelect();
         public Task<Role> GetById(int id);

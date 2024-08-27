@@ -5,11 +5,11 @@ using Entity.Model.Security;
 
 namespace Bussines.Implements
 {
-    public class ViewBusiness : IViewBusiness
+    public class PersonBusiness : IPersonBusiness
     {
-        protected readonly IViewData data;
+        protected readonly IPersonData data;
 
-        public ViewBusiness(IViewData data)
+        public PersonBusiness(IPersonData data)
         {
             this.data = data;
         }
@@ -19,19 +19,15 @@ namespace Bussines.Implements
             await this.data.Delete(id);
         }
 
-        public async Task<IEnumerable<ViewDto>> GetAll()
+        public async Task<IEnumerable<PersonDto>> GetAll()
         {
-            IEnumerable<View> views = await this.data.GetAll();
-            var viewDtos = views.Select(view => new ViewDto
+            IEnumerable<Person> persons = await this.data.GetAll();
+            var personDtos = persons.Select(person => new PersonDto
             {
-                Id = view.Id,
-                Name = view.Name,
-                Description = view.Description,
-                //Route = view.Route,
-                IdModule = view.IdModule,
-                State = view.State,
+                Id = person.Id,
+                First_name = person.First_name,
             });
-            return viewDtos;
+            return personDtos;
         }
 
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
@@ -39,48 +35,51 @@ namespace Bussines.Implements
             return await this.data.GetAllSelect();
         }
 
-        public async Task<ViewDto> GetById(int id)
+        public Task<PersonDto> GetByFirst_name(string First_name)
         {
-
-            View view = await this.data.GetById(id);
-            ViewDto viewDto = new ViewDto();
-
-            viewDto.Id = view.Id;
-            viewDto.Name = view.Name;
-            viewDto.Description = view.Description;
-            viewDto.IdModule = view.IdModule;
-            viewDto.State = view.State;
-            return viewDto;
-        }
-        public View mapData(View view, ViewDto entity)
-        {
-            view.Id = entity.Id;
-            view.Name = entity.Name;
-            view.Description = entity.Description;
-            view.IdModule = entity.IdModule;
-            view.State = entity.State;
-            return view;
+            throw new NotImplementedException();
         }
 
-        public async Task<View> Save(ViewDto entity)
+        public async Task<PersonDto> GetById(int id)
         {
-            View view = new View();
-            view.CreatedAt = DateTime.Now.AddHours(-5);
-            view = this.mapData(view, entity);
-            view.Module = null;
 
-            return await this.data.Save(view);
+            Person person = await this.data.GetById(id);
+            PersonDto personDto = new PersonDto();
+
+            personDto.Id = person.Id;
+            personDto.First_name = person.First_name;
+            return personDto;
+        }
+        public Person mapData(Person person, PersonDto entity)
+        {
+            person.Id = entity.Id;
+            person.First_name = entity.First_name;
+            return person;
         }
 
-        public async Task Update(ViewDto entity)
+        public async Task<Person> Save(PersonDto entity)
         {
-            View view = await this.data.GetById(entity.Id);
-            if (view == null)
+            Person person = new Person();
+            person.CreatedAt = DateTime.Now.AddHours(-5);
+            person = this.mapData(person, entity);
+
+            return await this.data.Save(person);
+        }
+
+        public async Task Update(PersonDto entity)
+        {
+            Person person = await this.data.GetById(entity.Id);
+            if (person == null)
             {
                 throw new Exception("Registro NO encontrado");
             }
-            view = this.mapData(view, entity);
-            await this.data.Update(view);
+            person = this.mapData(person, entity);
+            await this.data.Update(person);
+        }
+
+        Task<PersonDto> IPersonBusiness.Save(PersonDto entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }

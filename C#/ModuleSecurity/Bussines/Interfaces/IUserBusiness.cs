@@ -7,14 +7,13 @@ using System.Threading.Tasks;
 
 namespace Bussines.Interfaces
 {
-    public interface IViewBusiness
+    public interface IUserBusiness
     {
         public Task Delete(int id);
-        public Task<IEnumerable<ViewDto>> GetAll();
+        public Task<IEnumerable<UserDto>> GetAll();
         public Task<IEnumerable<DataSelectDto>> GetAllSelect();
-        public Task<ViewDto> GetById(int id);
-        public Task<ViewDto> GetByName(string name);
-        public Task<ViewDto> Save(ViewDto entity);
-        public Task Update(ViewDto entity);
+        public Task<UserDto> GetById(int id);
+        public Task<UserDto> Save(UserDto entity);
+        public Task Update(UserDto entity);
     }
 }

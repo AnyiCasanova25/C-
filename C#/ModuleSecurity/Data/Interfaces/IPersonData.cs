@@ -1,4 +1,5 @@
-﻿using Entity.Model.Security;
+﻿using Entity.DTO;
+using Entity.Model.Security;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,5 +18,6 @@ namespace Data.Interfaces
         public Task<Person> GetByFirst_name(string First_name);
         public Task<Person> Save(Person entity);
         public Task Update(Person entity);
+        Task<IEnumerable<DataSelectDto>> GetAllSelect();
     }
 }

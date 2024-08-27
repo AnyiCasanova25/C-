@@ -2,14 +2,15 @@
 using Data.Interfaces;
 using Entity.DTO;
 using Entity.Model.Security;
+using System.Data;
 
 namespace Bussines.Implements
 {
-    public class ViewBusiness : IViewBusiness
+    public class RoleBusiness : IRoleBusiness
     {
-        protected readonly IViewData data;
+        protected readonly IRoleData data;
 
-        public ViewBusiness(IViewData data)
+        public RoleBusiness(IRoleData data)
         {
             this.data = data;
         }
@@ -19,19 +20,17 @@ namespace Bussines.Implements
             await this.data.Delete(id);
         }
 
-        public async Task<IEnumerable<ViewDto>> GetAll()
+        public async Task<IEnumerable<RoleDto>> GetAll()
         {
-            IEnumerable<View> views = await this.data.GetAll();
-            var viewDtos = views.Select(view => new ViewDto
+            IEnumerable<Role> roles = await this.data.GetAll();
+            var roleDtos = roles.Select(role => new RoleDto
             {
-                Id = view.Id,
-                Name = view.Name,
-                Description = view.Description,
-                //Route = view.Route,
-                IdModule = view.IdModule,
-                State = view.State,
+                Id = role.Id,
+                Name = role.Name,
+                Description = role.Description,
+                State = role.State,
             });
-            return viewDtos;
+            return roleDtos;
         }
 
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
@@ -39,48 +38,56 @@ namespace Bussines.Implements
             return await this.data.GetAllSelect();
         }
 
-        public async Task<ViewDto> GetById(int id)
+        public async Task<RoleDto> GetById(int id)
         {
 
-            View view = await this.data.GetById(id);
-            ViewDto viewDto = new ViewDto();
+            Role role = await this.data.GetById(id);
+            RoleDto roleDto = new RoleDto();
 
-            viewDto.Id = view.Id;
-            viewDto.Name = view.Name;
-            viewDto.Description = view.Description;
-            viewDto.IdModule = view.IdModule;
-            viewDto.State = view.State;
-            return viewDto;
-        }
-        public View mapData(View view, ViewDto entity)
-        {
-            view.Id = entity.Id;
-            view.Name = entity.Name;
-            view.Description = entity.Description;
-            view.IdModule = entity.IdModule;
-            view.State = entity.State;
-            return view;
+            roleDto.Id = role.Id;
+            roleDto.Name = role.Name;
+            roleDto.Description = role.Description;
+            roleDto.State = role.State;
+            return roleDto;
         }
 
-        public async Task<View> Save(ViewDto entity)
+        public Task<RoleDto> GetByName(string name)
         {
-            View view = new View();
-            view.CreatedAt = DateTime.Now.AddHours(-5);
-            view = this.mapData(view, entity);
-            view.Module = null;
-
-            return await this.data.Save(view);
+            throw new NotImplementedException();
         }
 
-        public async Task Update(ViewDto entity)
+        public Role mapData(Role role, RoleDto entity)
         {
-            View view = await this.data.GetById(entity.Id);
-            if (view == null)
+            role.Id = entity.Id;
+            role.Name = entity.Name;
+            role.Description = entity.Description;
+            role.State = entity.State;
+            return role;
+        }
+
+        public async Task<Role> Save(RoleDto entity)
+        {
+            Role role = new Role();
+            role.CreatedAt = DateTime.Now.AddHours(-5);
+            role = this.mapData(role, entity);
+
+            return await this.data.Save(role);
+        }
+
+        public async Task Update(RoleDto entity)
+        {
+            Role role = await this.data.GetById(entity.Id);
+            if (role == null)
             {
                 throw new Exception("Registro NO encontrado");
             }
-            view = this.mapData(view, entity);
-            await this.data.Update(view);
+            role = this.mapData(role, entity);
+            await this.data.Update(role);
+        }
+
+        Task<RoleDto> IRoleBusiness.Save(RoleDto entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -9,13 +9,15 @@ namespace Entity.Model.Security
     public class UserRole
     {
         public int Id { get; set; }
-        public string CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; }
         public string UpdatedAt { get; set; }
         public DateTime DeletedAt { get; set; }
         public bool State { get; set; }
 
         //Relacion entre tablas
         public User IdUser { get; set; }
+        public User User { get; set; }
         public Role IdRole { get; set; }
+        public Role Role { get; set; }
     }
 }
