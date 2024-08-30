@@ -76,10 +76,5 @@ namespace Bussines.Implements
             person = this.mapData(person, entity);
             await this.data.Update(person);
         }
-
-        Task<PersonDto> IPersonBusiness.Save(PersonDto entity)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

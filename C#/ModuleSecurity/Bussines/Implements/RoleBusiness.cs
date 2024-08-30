@@ -84,10 +84,5 @@ namespace Bussines.Implements
             role = this.mapData(role, entity);
             await this.data.Update(role);
         }
-
-        Task<RoleDto> IRoleBusiness.Save(RoleDto entity)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

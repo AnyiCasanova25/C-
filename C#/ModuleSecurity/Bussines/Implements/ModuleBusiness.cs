@@ -2,11 +2,6 @@
 using Data.Interfaces;
 using Entity.DTO;
 using Entity.Model.Security;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Bussines.Implements
 {
@@ -79,11 +74,6 @@ namespace Bussines.Implements
             }
             module = this.mapData(module, entity);
             await this.data.Update(module);
-        }
-
-        Task<ModuleDto> IModuleBusiness.Save(ModuleDto entity)
-        {
-            throw new NotImplementedException();
         }
     }
 }

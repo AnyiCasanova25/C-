@@ -79,15 +79,5 @@ namespace Bussines.Implements
             roleview = this.mapData(roleview, entity);
             await this.data.Update(roleview);
         }
-
-        public Task Update(ViewDto entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<RoleViewDto> IRoleViewBusiness.Save(RoleViewDto entity)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

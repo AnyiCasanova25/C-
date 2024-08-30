@@ -88,10 +88,5 @@ namespace Bussines.Implements
             view = this.mapData(view, entity);
             await this.data.Update(view);
         }
-
-        Task<ViewDto> IViewBusiness.Save(ViewDto entity)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Entity.DTO;
+using Entity.Model.Security;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,7 @@ namespace Bussines.Interfaces
         public Task<IEnumerable<UserDto>> GetAll();
         public Task<IEnumerable<DataSelectDto>> GetAllSelect();
         public Task<UserDto> GetById(int id);
-        public Task<UserDto> Save(UserDto entity);
+        public Task<User> Save(UserDto entity);
         public Task Update(UserDto entity);
     }
 }

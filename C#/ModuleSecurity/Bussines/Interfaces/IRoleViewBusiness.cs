@@ -1,4 +1,5 @@
 ﻿using Entity.DTO;
+using Entity.Model.Security;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,7 @@ namespace Bussines.Interfaces
         public Task<IEnumerable<RoleViewDto>> GetAll();
         public Task<IEnumerable<DataSelectDto>> GetAllSelect();
         public Task<RoleViewDto> GetById(int id);
-        public Task<RoleViewDto> Save(RoleViewDto entity);
+        public Task<RoleView> Save(RoleViewDto entity);
         public Task Update(RoleViewDto entity);
     }
 }

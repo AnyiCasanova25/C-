@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore.Migrations;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,6 +10,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+Add-Migration Inicial
+update-database
+remove-migration
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

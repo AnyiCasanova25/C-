@@ -49,13 +49,14 @@ namespace Bussines.Implements
             userroleDto.State = userrole.State;
             return userroleDto;
         }
-        public UserRole mapData(UserRole userrole, UserRoleDto entity)
+
+        public UserRole mapData(UserRole userRole, UserRoleDto entity)
         {
-            userrole.Id = entity.Id;
-            userrole.IdUser = entity.IdUser;
-            userrole.IdRole = entity.IdRole;
-            userrole.State = entity.State;
-            return userrole;
+            userRole.Id = entity.Id;
+            userRole.IdUser = entity.IdUser;
+            userRole.IdRole = entity.IdRole;
+            userRole.State = entity.State;
+            return userRole;
         }
 
         public async Task<UserRole> Save(UserRoleDto entity)
@@ -69,11 +70,6 @@ namespace Bussines.Implements
             return await this.data.Save(userrole);
         }
 
-        public Task<UserRole> Save(UserRole entity)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task Update(UserRoleDto entity)
         {
             UserRole userrole = await this.data.GetById(entity.Id);
@@ -85,14 +81,5 @@ namespace Bussines.Implements
             await this.data.Update(userrole);
         }
 
-        public Task Update(UserRole entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<UserRole> IUserRoleBusiness.GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
