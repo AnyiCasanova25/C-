@@ -1,6 +1,12 @@
+using Entity.Context;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddDbContext<ApplicationDBContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("DbfaultConnection")));
 
 // Add services to the container.
 
@@ -10,11 +16,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-
-Add-Migration Inicial
-update-database
-remove-migration
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

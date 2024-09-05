@@ -3630,9 +3630,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\SENA\\Desktop\\C-\\C#\\moduleSecurity\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\moduleSecurity\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\SENA\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Data\\obj\\",
       "projectStyle": "PackageReference",
@@ -3652,8 +3652,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\ModuleSecurity\\Entity\\Entity.csproj"
+            "C:\\Users\\SENA\\Desktop\\C-\\C#\\moduleSecurity\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\SENA\\Desktop\\C-\\C#\\moduleSecurity\\Entity\\Entity.csproj"
             }
           }
         }
