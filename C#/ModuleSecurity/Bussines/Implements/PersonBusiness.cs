@@ -48,12 +48,26 @@ namespace Bussines.Implements
 
             personDto.Id = person.Id;
             personDto.First_name = person.First_name;
+            personDto.Last_name = person.Last_name;
+            personDto.Addres = person.Addres;
+            personDto.TypeDocument = person.TypeDocument;
+            personDto.Document = person.Document;
+            personDto.Birth_of_date = person.Birth_of_date;
+            personDto.Phone = person.Phone;
+            personDto.State = person.State;
             return personDto;
         }
         public Person mapData(Person person, PersonDto entity)
         {
             person.Id = entity.Id;
             person.First_name = entity.First_name;
+            person.Last_name = entity.Last_name;
+            person.Addres = entity.Addres;
+            person.TypeDocument = entity.TypeDocument;
+            person.Document = entity.Document;
+            person.Birth_of_date = entity.Birth_of_date;
+            person.Phone = entity.Phone;
+            person.State = entity.State;
             return person;
         }
 

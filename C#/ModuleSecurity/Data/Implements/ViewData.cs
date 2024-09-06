@@ -34,7 +34,7 @@ namespace Data.Implements
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
         {
             var sql = @"SELECT Id, CONCAT(Name, ' - ', Description) AS TextoMostrar
-                        FROM View
+                        FROM Views
                         WHERE Deleted_at IS NULL AND State = 1
                         ORDER BY Id ASC";
             return await context.QueryAsync<DataSelectDto>(sql);
@@ -44,7 +44,7 @@ namespace Data.Implements
             {
                 try
                 {
-                    var sql = @"SELECT * FROM View WHERE Id = @Id ORDER BY Id ASC";
+                    var sql = @"SELECT * FROM Views WHERE Id = @Id ORDER BY Id ASC";
                     return await this.context.QueryFirstOrDefaultAsync<View>(sql, new { Id = id });
                 }
                 catch (Exception)
@@ -74,7 +74,7 @@ namespace Data.Implements
         
         public async Task<IEnumerable<View>> GetAll()
         {
-            var sql = @"SELECT * FROM View ORDER BY Id ASC";
+            var sql = @"SELECT * FROM Views ORDER BY Id ASC";
             return await this.context.QueryAsync<View>(sql);
         }
     }

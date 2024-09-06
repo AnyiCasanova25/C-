@@ -31,7 +31,7 @@ namespace Data.Implements
 
         public async Task<State> GetById(int id)
         {
-            var sql = @"SELECT * FROM State WHERE Id = @Id ORDER BY Id ASC";
+            var sql = @"SELECT * FROM States WHERE Id = @Id ORDER BY Id ASC";
             return await this.context.QueryFirstOrDefaultAsync<State>(sql, new { Id = id });
         }
 
@@ -59,7 +59,7 @@ namespace Data.Implements
             {
                 var sql = @"
                     SELECT Id, CONCAT(Name) AS TextoMostrar
-                    FROM State
+                    FROM States
                     WHERE Deleted_at IS NULL AND State = 1
                     ORDER BY Id ASC";
 
@@ -75,7 +75,7 @@ namespace Data.Implements
         {
             try
             {
-                var sql = "SELECT * FROM State ORDER BY Id ASC";
+                var sql = "SELECT * FROM States ORDER BY Id ASC";
                 return await this.context.QueryAsync<State>(sql);
             }
             catch (Exception ex)

@@ -6,11 +6,11 @@ using System.Diagnostics.Metrics;
 
 namespace Business.Implements
 {
-    public class CountryBusiness : ICountriesBusiness
+    public class CountriesBusiness : ICountriesBusiness
     {
         protected readonly ICountriesData data;
 
-        public CountryBusiness(ICountriesData data)
+        public CountriesBusiness(ICountriesData data)
         {
             this.data = data;
         }
@@ -27,6 +27,7 @@ namespace Business.Implements
             {
                 Id = countries.Id,
                 Name = countries.Name,
+                State = countries.State,
             });
 
             return countriesDtos;
@@ -39,6 +40,7 @@ namespace Business.Implements
             {
                 Id = countries.Id,
                 Name = countries.Name,
+                State = countries.State,
             };
             return countriesDto;
         }
@@ -47,6 +49,7 @@ namespace Business.Implements
         {
             countries.Id = entity.Id;
             countries.Name = entity.Name;
+            countries.State = entity.State;
             return countries;
         }
 

@@ -1,12 +1,39 @@
+using Business.Implements;
+using Business.Interface;
+using Bussines.Implements;
+using Bussines.Interfaces;
+using Data.Implements;
+using Data.Interfaces;
 using Entity.Context;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Migrations;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DbfaultConnection")));
+ options.UseMySQL(builder.Configuration.GetConnectionString("MySqlConnection")));
+
+builder.Services.AddScoped<IModuleData,ModuleData>();
+builder.Services.AddScoped<IModuleBusiness,ModuleBusiness>();
+builder.Services.AddScoped<IPersonData,PersonData>();
+builder.Services.AddScoped<IPersonBusiness,PersonBusiness>();
+builder.Services.AddScoped<IRoleData,RoleData>();
+builder.Services.AddScoped<IRoleBusiness,RoleBusiness>();
+builder.Services.AddScoped<IRoleViewData,RoleViewData>();
+builder.Services.AddScoped<IRoleViewBusiness,RoleViewBusiness>();
+builder.Services.AddScoped<IUserData,UserData>();
+builder.Services.AddScoped<IUserBusiness,UserBusiness>();
+builder.Services.AddScoped<IUserRoleData,UserRoleData>();
+builder.Services.AddScoped<IUserRoleBusiness,UserRoleBusiness>();
+builder.Services.AddScoped<IViewData,ViewData>();
+builder.Services.AddScoped<IViewBusiness,ViewBusiness>();
+builder.Services.AddScoped<ICityData,CityData>();
+builder.Services.AddScoped<ICityBusiness,CityBusiness>();
+builder.Services.AddScoped<IStateData,StateData>();
+builder.Services.AddScoped<IStateBusiness,StateBusiness>();
+builder.Services.AddScoped<ICountriesData,CountriesData>();
+builder.Services.AddScoped<ICountriesBusiness,CountriesBusiness>();
+
 
 // Add services to the container.
 
@@ -21,7 +48,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(); 
 }
 
 app.UseHttpsRedirection();

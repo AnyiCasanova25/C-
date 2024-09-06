@@ -63,9 +63,11 @@ namespace Entity.Context
             ChangeTracker.DetectChanges();
         }
 
-        public Task<IEnumerable<T>> QueryAsync<T>(string sql)
+        public async Task<IEnumerable<T>> QueryAsync<T>(string text, object parameters = null, int? timeout = null, CommandType? type = null)
         {
-            throw new NotImplementedException();
+            using var command = new DapperEFCoreCommand(this, text, parameters, timeout, type, CancellationToken.None);
+            var connection = this.Database.GetDbConnection();
+            return await connection.QueryAsync<T>(command.Definition);
         }
 
         // Security
