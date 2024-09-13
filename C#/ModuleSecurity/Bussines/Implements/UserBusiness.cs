@@ -57,8 +57,10 @@ namespace Bussines.Implements
 
         public async Task<User> Save(UserDto entity)
         {
-            User user = new User();
-            user.CreatedAt = DateTime.Now.AddHours(-5);
+            User user = new User 
+            {
+                CreatedAt = DateTime.Now.AddHours(-5)
+            };
             user = this.mapData(user, entity);
             user.Person = null;
 

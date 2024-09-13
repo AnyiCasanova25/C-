@@ -70,8 +70,10 @@ namespace Bussines.Implements
 
         public async Task<View> Save(ViewDto entity)
         {
-            View view = new View();
-            view.CreatedAt = DateTime.Now.AddHours(-5);
+            View view = new View 
+            {
+               CreatedAt = DateTime.Now.AddHours(-5)
+            };
             view = this.mapData(view, entity);
             view.Module = null;
 

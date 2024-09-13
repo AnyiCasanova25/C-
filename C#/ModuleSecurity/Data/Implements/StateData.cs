@@ -25,6 +25,7 @@ namespace Data.Implements
                 throw new Exception("Registro no encontrado");
 
             entity.DeleteAt = DateTime.Parse(DateTime.Today.ToString());
+            entity.state = false;
             context.States.Update(entity);
             await context.SaveChangesAsync();
         }
@@ -75,7 +76,7 @@ namespace Data.Implements
         {
             try
             {
-                var sql = "SELECT * FROM States ORDER BY Id ASC";
+                var sql = "SELECT * FROM States WHERE state=true ORDER BY Id ASC";
                 return await this.context.QueryAsync<State>(sql);
             }
             catch (Exception ex)

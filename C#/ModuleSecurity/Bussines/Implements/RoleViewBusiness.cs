@@ -60,8 +60,10 @@ namespace Bussines.Implements
 
         public async Task<RoleView> Save(RoleViewDto entity)
         {
-            RoleView roleview = new RoleView();
-            roleview.CreatedAt = DateTime.Now.AddHours(-5);
+            RoleView roleview = new RoleView 
+            {
+                CreatedAt = DateTime.Now.AddHours(-5)
+            };
             roleview = this.mapData(roleview, entity);
             roleview.Role = null;
             roleview.View = null;

@@ -58,8 +58,11 @@ namespace Bussines.Implements
 
         public async Task<Module> Save(ModuleDto entity)
         {
-            Module module = new Module();
-            module.CreatedAt = DateTime.Now.AddHours(-5);
+            Module module = new Module 
+            {
+                CreatedAt = DateTime.Now.AddHours(-5)
+            };
+            
             module = this.mapData(module, entity);
 
             return await this.data.Save(module);

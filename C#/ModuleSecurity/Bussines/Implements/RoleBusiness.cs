@@ -67,8 +67,10 @@ namespace Bussines.Implements
 
         public async Task<Role> Save(RoleDto entity)
         {
-            Role role = new Role();
-            role.CreatedAt = DateTime.Now.AddHours(-5);
+            Role role = new Role 
+            {
+                CreatedAt = DateTime.Now.AddHours(-5)
+            };
             role = this.mapData(role, entity);
 
             return await this.data.Save(role);

@@ -27,16 +27,15 @@ namespace Data.Implements
                     throw new Exception("Registro no encontrado");
 
                 entity.DeletedAt = DateTime.Parse(DateTime.Today.ToString());
+                entity.State = false;
                 context.UserRoles.Update(entity);
                 await context.SaveChangesAsync();
             }
 
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
         {
-            var sql = @"SELECT Id AS TextoMostrar
-                        FROM UserRoles
-                        WHERE Deleted_at IS NULL AND State = 1
-                        ORDER BY Id ASC";
+            var sql = @"SELECT u.Username, r.Name FROM user u INNER JOIN
+                        UserRoles ur ON u.Id = ur.IdUser rol r ON ur.IdRol = r.Id";
             return await context.QueryAsync<DataSelectDto>(sql);
         }
 
@@ -73,7 +72,7 @@ namespace Data.Implements
 
         public async Task<IEnumerable<UserRole>> GetAll()
         {
-            var sql = @"SELECT * FROM UserRoles ORDER BY Id ASC";
+            var sql = @"SELECT * FROM UserRoles WHERE State=true ORDER BY Id ASC";
             return await this.context.QueryAsync<UserRole>(sql);
         }
     }

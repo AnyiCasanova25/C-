@@ -27,6 +27,7 @@ namespace Data.Implements
                     throw new Exception("Registro no encontrado");
 
                 entity.DeletedAt = DateTime.Parse(DateTime.Today.ToString());
+                entity.State = false;
                 context.RoleViews.Update(entity);
                 await context.SaveChangesAsync();
             }
@@ -73,7 +74,7 @@ namespace Data.Implements
 
         public async Task<IEnumerable<RoleView>> GetAll()
         {
-            var sql = @"SELECT * FROM RoleViews ORDER BY Id ASC";
+            var sql = @"SELECT * FROM RoleViews WHERE State=true ORDER BY Id ASC";
             return await this.context.QueryAsync<RoleView>(sql);
         }
     }
