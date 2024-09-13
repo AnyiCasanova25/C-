@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Entity.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20240906215624_NuevaMigracion")]
-    partial class NuevaMigracion
+    [Migration("20240913182444_nuevaMigracion")]
+    partial class nuevaMigracion
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -122,8 +122,9 @@ namespace Entity.Migrations
                     b.Property<DateTime>("DeletedAt")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<short>("Document")
-                        .HasColumnType("smallint");
+                    b.Property<string>("Document")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<string>("First_name")
                         .IsRequired()
@@ -133,8 +134,9 @@ namespace Entity.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<short>("Phone")
-                        .HasColumnType("smallint");
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<bool>("State")
                         .HasColumnType("tinyint(1)");

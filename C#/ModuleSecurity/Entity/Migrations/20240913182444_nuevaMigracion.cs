@@ -7,7 +7,7 @@ using MySql.EntityFrameworkCore.Metadata;
 namespace Entity.Migrations
 {
     /// <inheritdoc />
-    public partial class NuevaMigracion : Migration
+    public partial class nuevaMigracion : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -79,12 +79,12 @@ namespace Entity.Migrations
                     Last_name = table.Column<string>(type: "longtext", nullable: false),
                     Addres = table.Column<string>(type: "longtext", nullable: false),
                     TypeDocument = table.Column<string>(type: "longtext", nullable: false),
-                    Document = table.Column<short>(type: "smallint", nullable: false),
+                    Document = table.Column<string>(type: "longtext", nullable: false),
                     Birth_of_date = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     DeletedAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    Phone = table.Column<short>(type: "smallint", nullable: false),
+                    Phone = table.Column<string>(type: "longtext", nullable: false),
                     State = table.Column<bool>(type: "tinyint(1)", nullable: false)
                 },
                 constraints: table =>

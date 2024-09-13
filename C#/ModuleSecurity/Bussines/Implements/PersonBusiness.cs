@@ -26,6 +26,13 @@ namespace Bussines.Implements
             {
                 Id = person.Id,
                 First_name = person.First_name,
+                Last_name = person.Last_name,
+                Addres = person.Addres,
+                TypeDocument = person.TypeDocument,
+                Document = person.Document,
+                Birth_of_date = person.Birth_of_date,
+                Phone = person.Phone,
+                State = person.State,
             });
             return personDtos;
         }
@@ -73,8 +80,11 @@ namespace Bussines.Implements
 
         public async Task<Person> Save(PersonDto entity)
         {
-            Person person = new Person();
-            person.CreatedAt = DateTime.Now.AddHours(-5);
+            Person person = new Person 
+            {
+                CreatedAt = DateTime.Now.AddHours(-5)
+            };
+            
             person = this.mapData(person, entity);
 
             return await this.data.Save(person);
