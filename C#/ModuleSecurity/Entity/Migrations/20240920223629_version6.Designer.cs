@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Entity.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20240920213113_Initial")]
-    partial class Initial
+    [Migration("20240920223629_version6")]
+    partial class version6
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,9 +34,6 @@ namespace Entity.Migrations
                     b.Property<DateTime>("DeleteAt")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("IdState")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -44,7 +41,7 @@ namespace Entity.Migrations
                     b.Property<bool>("State")
                         .HasColumnType("tinyint(1)");
 
-                    b.Property<int>("StatesId")
+                    b.Property<int>("StateId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("UpdateAt")
@@ -52,7 +49,7 @@ namespace Entity.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("StatesId");
+                    b.HasIndex("StateId");
 
                     b.ToTable("Cities");
                 });
@@ -141,9 +138,6 @@ namespace Entity.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("IdCity")
-                        .HasColumnType("int");
-
                     b.Property<string>("Last_name")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -212,12 +206,6 @@ namespace Entity.Migrations
                     b.Property<DateTime>("DeletedAt")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("IdRole")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IdView")
-                        .HasColumnType("int");
-
                     b.Property<int>("RoleId")
                         .HasColumnType("int");
 
@@ -283,9 +271,6 @@ namespace Entity.Migrations
                     b.Property<DateTime>("DeletedAt")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("IdPerson")
-                        .HasColumnType("int");
-
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -321,12 +306,6 @@ namespace Entity.Migrations
 
                     b.Property<DateTime>("DeletedAt")
                         .HasColumnType("datetime(6)");
-
-                    b.Property<int>("IdRole")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IdUser")
-                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -369,9 +348,6 @@ namespace Entity.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("IdModule")
-                        .HasColumnType("int");
-
                     b.Property<int>("ModuleId")
                         .HasColumnType("int");
 
@@ -396,7 +372,7 @@ namespace Entity.Migrations
                 {
                     b.HasOne("Entity.Model.Security.State", "States")
                         .WithMany()
-                        .HasForeignKey("StatesId")
+                        .HasForeignKey("StateId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

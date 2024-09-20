@@ -17,9 +17,9 @@ namespace Entity.Model.Security
 
         //Relacion entre tablas
 
-        public int IdRole { get; set; }
+        public int RoleId { get; set; }
         public Role Role { get; set; }
-        public int IdView { get; set; }
+        public int ViewId { get; set; }
         public View View { get; set; }
     }
 }

@@ -11,9 +11,9 @@ namespace Entity.DTO
     {
         public int Id { get; set; }
         public bool State { get; set; }
-        public int IdRole { get; set; }
+        public int RoleId { get; set; }
         public string ? Role { get; set; }
-        public int IdView { get; set; }
+        public int ViewId { get; set; }
         public string ? View { get; set; }
     }
 }

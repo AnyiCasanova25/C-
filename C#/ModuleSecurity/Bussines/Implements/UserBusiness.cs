@@ -25,7 +25,7 @@ namespace Bussines.Implements
             var userDtos = users.Select(user => new UserDto
             {
                 Id = user.Id,
-                IdPerson = user.IdPerson,
+                PersonId = user.PersonId,
                 State = user.State,
             });
             return userDtos;
@@ -43,15 +43,17 @@ namespace Bussines.Implements
             UserDto userDto = new UserDto();
 
             userDto.Id = user.Id;
-            userDto.IdPerson = user.IdPerson;
+            userDto.PersonId = user.PersonId;
             userDto.State = user.State;
             return userDto;
         }
         public User mapData(User user, UserDto entity)
         {
             user.Id = entity.Id;
-            user.IdPerson = entity.IdPerson;
+            user.PersonId = entity.PersonId;
             user.State = entity.State;
+            user.Username = entity.Username;
+            user.Password = entity.Password;
             return user;
         }
 

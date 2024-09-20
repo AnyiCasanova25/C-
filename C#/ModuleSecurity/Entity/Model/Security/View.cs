@@ -19,7 +19,7 @@ namespace Entity.Model.Security
         //Relacion entre tablas
        
         public Module Module { get; set; }
-        public int IdModule { get; set; }
+        public int ModuleId { get; set; }
         
     }
 }

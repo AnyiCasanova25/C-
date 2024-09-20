@@ -19,14 +19,14 @@ namespace Web.Controllers.Implements
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CountriesDto>>> GetAll()
+        public async Task<ActionResult<IEnumerable<CountryDto>>> GetAll()
         {
             var result = await _countriesBusiness.GetAll();
             return Ok(result);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<CountriesDto>> GetById(int id)
+        public async Task<ActionResult<CountryDto>> GetById(int id)
         {
             var result = await _countriesBusiness.GetById(id);
             if (result == null)
@@ -37,7 +37,7 @@ namespace Web.Controllers.Implements
         }
 
         [HttpPost]
-        public async Task<ActionResult<Country>> Save([FromBody] CountriesDto entity)
+        public async Task<ActionResult<Country>> Save([FromBody] CountryDto entity)
         {
             if (entity == null)
             {
@@ -49,7 +49,7 @@ namespace Web.Controllers.Implements
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update([FromBody] CountriesDto entity)
+        public async Task<IActionResult> Update([FromBody] CountryDto entity)
         {
             if (entity == null || entity.Id == 0)
             {

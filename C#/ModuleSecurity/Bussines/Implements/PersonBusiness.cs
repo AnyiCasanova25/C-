@@ -33,7 +33,7 @@ namespace Bussines.Implements
                 Birth_of_date = person.Birth_of_date,
                 Phone = person.Phone,
                 State = person.State,
-                IdCity = person.IdCity,
+                CityId = person.CityId,
             });
             return personDtos;
         }
@@ -63,7 +63,7 @@ namespace Bussines.Implements
             personDto.Birth_of_date = person.Birth_of_date;
             personDto.Phone = person.Phone;
             personDto.State = person.State;
-            personDto.IdCity = person.IdCity;
+            personDto.CityId = person.CityId;
 
             return personDto;
         }
@@ -78,7 +78,7 @@ namespace Bussines.Implements
             person.Birth_of_date = entity.Birth_of_date;
             person.Phone = entity.Phone;
             person.State = entity.State;
-            person.IdCity = entity.IdCity;
+            person.CityId = entity.CityId;
             return person;
         }
 

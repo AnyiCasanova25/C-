@@ -33,7 +33,7 @@ namespace Data.Implements
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
         {
             var sql = @"SELECT cy.Name, cr.Name FROM cities cy INNER JOIN
-                states s ON cy.Id = s.IdCity countriess cr ON s.IdCountries = cr.Id";
+                states s ON cy.Id = s.IdCity countries cr ON s.IdCountries = cr.Id";
             return await context.QueryAsync<DataSelectDto>(sql);
         }
 

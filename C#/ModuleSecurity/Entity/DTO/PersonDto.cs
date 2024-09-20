@@ -18,7 +18,7 @@ namespace Entity.DTO
         public string Phone { get; set; }
         public bool State { get; set; }
 
-        public int IdCity { get; set; }
+        public int CityId { get; set; }
         public string ? City { get; set; }
     }
 }

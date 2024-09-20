@@ -13,7 +13,7 @@ namespace Entity.DTO
         public string Name { get; set; }
         public bool State { get; set; }
 
-        public int IdState { get; set; }
+        public int StateId { get; set; }
         public string ? States { get; set; }
 
     }

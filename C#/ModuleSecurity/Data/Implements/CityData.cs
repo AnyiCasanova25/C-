@@ -61,7 +61,7 @@ namespace Data.Implements
                 var sql = @"
             SELECT Id, CONCAT(Name) AS TextoMostrar
             FROM Cities
-            WHERE Deleted_at IS NULL AND State = 1
+            WHERE DeletedAt IS NULL AND State = 1
             ORDER BY Id ASC";
 
                 return await this.context.QueryAsync<DataSelectDto>(sql);

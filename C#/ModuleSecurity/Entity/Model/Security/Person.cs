@@ -21,7 +21,7 @@ namespace Entity.Model.Security
         public string Phone { get; set; }
         public bool State { get; set; }
 
-        public int IdCity { get; set; }
+        public int CityId { get; set; }
         public City City{ get; set; }
     }
 }

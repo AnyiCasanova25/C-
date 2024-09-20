@@ -7,7 +7,7 @@ using MySql.EntityFrameworkCore.Metadata;
 namespace Entity.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class version6 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -107,8 +107,7 @@ namespace Entity.Migrations
                     UpdatedAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     DeletedAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     State = table.Column<bool>(type: "tinyint(1)", nullable: false),
-                    ModuleId = table.Column<int>(type: "int", nullable: false),
-                    IdModule = table.Column<int>(type: "int", nullable: false)
+                    ModuleId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -133,15 +132,14 @@ namespace Entity.Migrations
                     UpdateAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     DeleteAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     State = table.Column<bool>(type: "tinyint(1)", nullable: false),
-                    IdState = table.Column<int>(type: "int", nullable: false),
-                    StatesId = table.Column<int>(type: "int", nullable: false)
+                    StateId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Cities", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Cities_States_StatesId",
-                        column: x => x.StatesId,
+                        name: "FK_Cities_States_StateId",
+                        column: x => x.StateId,
                         principalTable: "States",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -158,9 +156,7 @@ namespace Entity.Migrations
                     UpdatedAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     DeletedAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     State = table.Column<bool>(type: "tinyint(1)", nullable: false),
-                    IdRole = table.Column<int>(type: "int", nullable: false),
                     RoleId = table.Column<int>(type: "int", nullable: false),
-                    IdView = table.Column<int>(type: "int", nullable: false),
                     ViewId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -198,7 +194,6 @@ namespace Entity.Migrations
                     DeletedAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     Phone = table.Column<string>(type: "longtext", nullable: false),
                     State = table.Column<bool>(type: "tinyint(1)", nullable: false),
-                    IdCity = table.Column<int>(type: "int", nullable: false),
                     CityId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -225,7 +220,6 @@ namespace Entity.Migrations
                     UpdatedAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     DeletedAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     State = table.Column<bool>(type: "tinyint(1)", nullable: false),
-                    IdPerson = table.Column<int>(type: "int", nullable: false),
                     PersonId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -251,9 +245,7 @@ namespace Entity.Migrations
                     UpdatedAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     DeletedAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     State = table.Column<bool>(type: "tinyint(1)", nullable: false),
-                    IdUser = table.Column<int>(type: "int", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: false),
-                    IdRole = table.Column<int>(type: "int", nullable: false),
                     RoleId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -275,9 +267,9 @@ namespace Entity.Migrations
                 .Annotation("MySQL:Charset", "utf8mb4");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Cities_StatesId",
+                name: "IX_Cities_StateId",
                 table: "Cities",
-                column: "StatesId");
+                column: "StateId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Persons_CityId",

@@ -28,7 +28,7 @@ namespace Bussines.Implements
                 Name = view.Name,
                 Description = view.Description,
                 //Route = view.Route,
-                IdModule = view.IdModule,
+                ModuleId = view.ModuleId,
                 State = view.State,
             });
             return viewDtos;
@@ -48,7 +48,7 @@ namespace Bussines.Implements
             viewDto.Id = view.Id;
             viewDto.Name = view.Name;
             viewDto.Description = view.Description;
-            viewDto.IdModule = view.IdModule;
+            viewDto.ModuleId = view.ModuleId;
             viewDto.State = view.State;
             return viewDto;
         }
@@ -63,7 +63,7 @@ namespace Bussines.Implements
             view.Id = entity.Id;
             view.Name = entity.Name;
             view.Description = entity.Description;
-            view.IdModule = entity.IdModule;
+            view.ModuleId = entity.ModuleId;
             view.State = entity.State;
             return view;
         }
