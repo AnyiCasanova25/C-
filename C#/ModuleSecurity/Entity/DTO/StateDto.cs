@@ -1,11 +1,4 @@
-﻿using Entity.Model.Security;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Entity.DTO
+﻿namespace Entity.DTO
 {
     public class StateDto
     {
@@ -14,8 +7,8 @@ namespace Entity.DTO
         public bool state { get; set; }
 
 
-        public int IdCountries { get; set; }
-        public string ? Countries { get; set; }
+        public int CountryId { get; set; }
+        public string ? Country { get; set; }
 
     }
 }

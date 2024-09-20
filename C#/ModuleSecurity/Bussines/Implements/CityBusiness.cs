@@ -28,6 +28,8 @@ namespace Business.Implements
                 Id = city.Id,
                 Name = city.Name,
                 State = city.State,
+                IdState = city.IdState,
+
             });
 
             return cityDtos;
@@ -41,6 +43,7 @@ namespace Business.Implements
                 Id = city.Id,
                 Name = city.Name,
                 State = city.State,
+                IdState = city.IdState,
             };
 
             return cityDto;
@@ -51,6 +54,7 @@ namespace Business.Implements
             city.Id = entity.Id;
             city.Name = entity.Name;
             city.State = entity.State;
+            city.IdState = entity.IdState;
             return city;
         }
 

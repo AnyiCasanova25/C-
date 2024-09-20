@@ -79,7 +79,7 @@ namespace Entity.Context
         public DbSet<UserRole> UserRoles => Set<UserRole>();
         public DbSet<View> Views => Set<View>();
         public DbSet<Module> Modules => Set<Module>();
-        public DbSet<Countries> Countriess => Set<Countries>();
+        public DbSet<Country> Countries => Set<Country>();
         public DbSet<State> States => Set<State>();
         public DbSet<City> Cities => Set<City>();
 

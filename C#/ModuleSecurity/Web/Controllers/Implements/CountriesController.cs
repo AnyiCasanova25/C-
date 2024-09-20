@@ -37,7 +37,7 @@ namespace Web.Controllers.Implements
         }
 
         [HttpPost]
-        public async Task<ActionResult<Countries>> Save([FromBody] CountriesDto entity)
+        public async Task<ActionResult<Country>> Save([FromBody] CountriesDto entity)
         {
             if (entity == null)
             {

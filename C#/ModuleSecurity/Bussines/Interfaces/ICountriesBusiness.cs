@@ -10,7 +10,7 @@ namespace Business.Interface
     {
         Task<IEnumerable<CountriesDto>> GetAll();
         Task<CountriesDto> GetById(int id);
-        Task<Countries> Save(CountriesDto entity);
+        Task<Country> Save(CountriesDto entity);
         Task Update(CountriesDto entity);
         Task Delete(int id);
     }

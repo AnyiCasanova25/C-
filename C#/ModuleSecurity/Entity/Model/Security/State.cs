@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Entity.Model.Security
+﻿namespace Entity.Model.Security
 {
     public class State
     {
@@ -17,8 +11,8 @@ namespace Entity.Model.Security
 
 
 
-        public int IdCountries { get; set; }
-        public Countries Countries { get; set; }
+        public int CountryId { get; set; }
+        public Country Country { get; set; }
 
     }
 }

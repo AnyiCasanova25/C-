@@ -22,7 +22,7 @@ namespace Business.Implements
 
         public async Task<IEnumerable<CountriesDto>> GetAll()
         {
-            IEnumerable<Countries> countries = await this.data.GetAll();
+            IEnumerable<Country> countries = await this.data.GetAll();
             var countriesDtos = countries.Select(countries => new CountriesDto
             {
                 Id = countries.Id,
@@ -35,7 +35,7 @@ namespace Business.Implements
 
         public async Task<CountriesDto> GetById(int id)
         {
-            Countries countries = await this.data.GetById(id);
+            Country countries = await this.data.GetById(id);
             CountriesDto countriesDto = new CountriesDto
             {
                 Id = countries.Id,
@@ -45,7 +45,7 @@ namespace Business.Implements
             return countriesDto;
         }
 
-        public Countries mapearDatos(Countries countries, CountriesDto entity)
+        public Country mapearDatos(Country countries, CountriesDto entity)
         {
             countries.Id = entity.Id;
             countries.Name = entity.Name;
@@ -53,9 +53,9 @@ namespace Business.Implements
             return countries;
         }
 
-        public async Task<Countries> Save(CountriesDto entity)
+        public async Task<Country> Save(CountriesDto entity)
         {
-            Countries countries = new Countries
+            Country countries = new Country
             {
                 CreateAt = DateTime.Now.AddHours(-5)
             };
@@ -66,7 +66,7 @@ namespace Business.Implements
 
         public async Task Update(CountriesDto entity)
         {
-            Countries countries = await this.data.GetById(entity.Id);
+            Country countries = await this.data.GetById(entity.Id);
             if (countries == null)
             {
                 throw new Exception("Registro no encontrado");

@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Entity.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20240920200515_NewMigration")]
-    partial class NewMigration
+    [Migration("20240920213113_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -57,7 +57,7 @@ namespace Entity.Migrations
                     b.ToTable("Cities");
                 });
 
-            modelBuilder.Entity("Entity.Model.Security.Countries", b =>
+            modelBuilder.Entity("Entity.Model.Security.Country", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -81,7 +81,7 @@ namespace Entity.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Countriess");
+                    b.ToTable("Countries");
                 });
 
             modelBuilder.Entity("Entity.Model.Security.Module", b =>
@@ -245,7 +245,7 @@ namespace Entity.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("CountriesId")
+                    b.Property<int>("CountryId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreateAt")
@@ -253,9 +253,6 @@ namespace Entity.Migrations
 
                     b.Property<DateTime>("DeleteAt")
                         .HasColumnType("datetime(6)");
-
-                    b.Property<int>("IdCountries")
-                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -269,7 +266,7 @@ namespace Entity.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CountriesId");
+                    b.HasIndex("CountryId");
 
                     b.ToTable("States");
                 });
@@ -438,13 +435,13 @@ namespace Entity.Migrations
 
             modelBuilder.Entity("Entity.Model.Security.State", b =>
                 {
-                    b.HasOne("Entity.Model.Security.Countries", "Countries")
+                    b.HasOne("Entity.Model.Security.Country", "Country")
                         .WithMany()
-                        .HasForeignKey("CountriesId")
+                        .HasForeignKey("CountryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Countries");
+                    b.Navigation("Country");
                 });
 
             modelBuilder.Entity("Entity.Model.Security.User", b =>

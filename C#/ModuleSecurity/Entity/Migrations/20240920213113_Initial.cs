@@ -7,7 +7,7 @@ using MySql.EntityFrameworkCore.Metadata;
 namespace Entity.Migrations
 {
     /// <inheritdoc />
-    public partial class NewMigration : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,7 +16,7 @@ namespace Entity.Migrations
                 .Annotation("MySQL:Charset", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "Countriess",
+                name: "Countries",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -29,7 +29,7 @@ namespace Entity.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Countriess", x => x.Id);
+                    table.PrimaryKey("PK_Countries", x => x.Id);
                 })
                 .Annotation("MySQL:Charset", "utf8mb4");
 
@@ -81,16 +81,15 @@ namespace Entity.Migrations
                     UpdateAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     DeleteAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     state = table.Column<bool>(type: "tinyint(1)", nullable: false),
-                    IdCountries = table.Column<int>(type: "int", nullable: false),
-                    CountriesId = table.Column<int>(type: "int", nullable: false)
+                    CountryId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_States", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_States_Countriess_CountriesId",
-                        column: x => x.CountriesId,
-                        principalTable: "Countriess",
+                        name: "FK_States_Countries_CountryId",
+                        column: x => x.CountryId,
+                        principalTable: "Countries",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 })
@@ -296,9 +295,9 @@ namespace Entity.Migrations
                 column: "ViewId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_States_CountriesId",
+                name: "IX_States_CountryId",
                 table: "States",
-                column: "CountriesId");
+                column: "CountryId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_UserRoles_RoleId",
@@ -352,7 +351,7 @@ namespace Entity.Migrations
                 name: "States");
 
             migrationBuilder.DropTable(
-                name: "Countriess");
+                name: "Countries");
         }
     }
 }

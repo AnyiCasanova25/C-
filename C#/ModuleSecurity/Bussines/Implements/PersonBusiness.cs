@@ -33,6 +33,7 @@ namespace Bussines.Implements
                 Birth_of_date = person.Birth_of_date,
                 Phone = person.Phone,
                 State = person.State,
+                IdCity = person.IdCity,
             });
             return personDtos;
         }
@@ -62,6 +63,8 @@ namespace Bussines.Implements
             personDto.Birth_of_date = person.Birth_of_date;
             personDto.Phone = person.Phone;
             personDto.State = person.State;
+            personDto.IdCity = person.IdCity;
+
             return personDto;
         }
         public Person mapData(Person person, PersonDto entity)
@@ -75,6 +78,7 @@ namespace Bussines.Implements
             person.Birth_of_date = entity.Birth_of_date;
             person.Phone = entity.Phone;
             person.State = entity.State;
+            person.IdCity = entity.IdCity;
             return person;
         }
 

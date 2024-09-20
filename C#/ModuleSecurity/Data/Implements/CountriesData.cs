@@ -27,32 +27,32 @@ namespace Data.Implements
 
             entity.DeleteAt = DateTime.Parse(DateTime.Today.ToString());
             entity.State = false;
-            context.Countriess.Update(entity);
+            context.Countries.Update(entity);
             await context.SaveChangesAsync();
         }
          
-        public async Task<Countries> GetById(int id)
+        public async Task<Country> GetById(int id)
         {
             var sql = @"SELECT * FROM Countriess WHERE Id = @Id ORDER BY Id ASC";
-            return await this.context.QueryFirstOrDefaultAsync<Countries>(sql, new { Id = id });
+            return await this.context.QueryFirstOrDefaultAsync<Country>(sql, new { Id = id });
         }
 
-        public async Task<Countries> Save(Countries entity)
+        public async Task<Country> Save(Country entity)
         {
-            context.Countriess.Add(entity);
+            context.Countries.Add(entity);
             await context.SaveChangesAsync();
             return entity;
         }
 
-        public async Task Update(Countries entity)
+        public async Task Update(Country entity)
         {
             context.Entry(entity).State = EntityState.Modified;
             await context.SaveChangesAsync();
         }
 
-        public async Task<Countries> GetByName(string name)
+        public async Task<Country> GetByName(string name)
         {
-            return await this.context.Countriess.AsNoTracking().Where(item => item.Name == name).FirstOrDefaultAsync();
+            return await this.context.Countries.AsNoTracking().Where(item => item.Name == name).FirstOrDefaultAsync();
         }
 
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
@@ -73,12 +73,12 @@ namespace Data.Implements
             }
         }
 
-        public async Task<IEnumerable<Countries>> GetAll()
+        public async Task<IEnumerable<Country>> GetAll()
         {
             try
             {
                 var sql = "SELECT * FROM Countriess WHERE State=true ORDER BY Id ASC";
-                return await this.context.QueryAsync<Countries>(sql);
+                return await this.context.QueryAsync<Country>(sql);
             }
             catch (Exception ex)
             {

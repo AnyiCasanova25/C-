@@ -9,11 +9,11 @@ namespace Data.Interfaces
     public interface ICountriesData
     {
         public Task Delete(int id);
-        public Task<Countries> GetByName(string name);
-        public Task<Countries> Save(Countries entity);
-        public Task Update(Countries entity);
-        public Task<Countries> GetById(int id);
-        public Task<IEnumerable<Countries>> GetAll();
+        public Task<Country> GetByName(string name);
+        public Task<Country> Save(Country entity);
+        public Task Update(Country entity);
+        public Task<Country> GetById(int id);
+        public Task<IEnumerable<Country>> GetAll();
         public Task<IEnumerable<DataSelectDto>> GetAllSelect();
         
     }
