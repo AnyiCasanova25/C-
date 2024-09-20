@@ -34,10 +34,7 @@ namespace Data.Implements
 
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
         {
-            var sql = @"SELECT Id AS TextoMostrar
-                        FROM Users
-                        WHERE Deleted_at IS NULL AND State = 1
-                        ORDER BY Id ASC";
+            var sql = @"SELECT * users AS u INNER JOIN persons AS p ON u.IdPerson = p.Id";
             return await context.QueryAsync<DataSelectDto>(sql);
         }
 

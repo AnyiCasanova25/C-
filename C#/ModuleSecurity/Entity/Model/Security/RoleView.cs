@@ -16,9 +16,10 @@ namespace Entity.Model.Security
         public bool State { get; set; }
 
         //Relacion entre tablas
-        public Role IdRole { get; set; }
+
+        public int IdRole { get; set; }
         public Role Role { get; set; }
-        public View IdView { get; set; }
+        public int IdView { get; set; }
         public View View { get; set; }
     }
 }

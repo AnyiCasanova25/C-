@@ -34,7 +34,7 @@ namespace Data.Implements
 
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
         {
-            var sql = @"SELECT * Views AS v INNER JOIN Module AS mod ON v.IdModule = mod.Id";
+            var sql = @"SELECT * views AS v INNER JOIN modules AS m ON v.IdModule = m.Id";
             return await context.QueryAsync<DataSelectDto>(sql);
         }
 

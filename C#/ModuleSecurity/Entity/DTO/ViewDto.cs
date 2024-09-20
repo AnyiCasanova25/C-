@@ -9,13 +9,12 @@ namespace Entity.DTO
 {
     public class ViewDto
     {
-        public Module IdModule;
-
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public bool State { get; set; }
         ////Relacion entre tablas
-        //public Module IdModule { get; set; }
+        public int IdModule { get; set; }
+        public string ? Module { get; set; }
     }
 }

@@ -17,7 +17,9 @@ namespace Entity.Model.Security
         public bool State { get; set; }
 
         //Relacion entre tablas
-        public Module IdModule { get; set; }
+       
         public Module Module { get; set; }
+        public int IdModule { get; set; }
+        
     }
 }

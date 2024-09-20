@@ -17,5 +17,8 @@ namespace Entity.DTO
         public DateTime Birth_of_date { get; set; }
         public string Phone { get; set; }
         public bool State { get; set; }
+
+        public int IdCity { get; set; }
+        public string ? City { get; set; }
     }
 }

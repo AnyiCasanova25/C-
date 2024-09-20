@@ -34,8 +34,8 @@ namespace Data.Implements
 
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
         {
-            var sql = @"SELECT u.Username, r.Name FROM user u INNER JOIN
-                        UserRoles ur ON u.Id = ur.IdUser rol r ON ur.IdRol = r.Id";
+            var sql = @"SELECT u.Username, r.Name FROM users u INNER JOIN
+                        userroles ur ON u.Id = ur.IdUser roles r ON ur.IdRol = r.Id";
             return await context.QueryAsync<DataSelectDto>(sql);
         }
 

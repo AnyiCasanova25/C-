@@ -14,5 +14,11 @@ namespace Entity.Model.Security
         public DateTime UpdateAt { get; set; }
         public DateTime DeleteAt { get; set; }
         public bool state { get; set; }
+
+
+
+        public int IdCountries { get; set; }
+        public Countries Countries { get; set; }
+
     }
 }

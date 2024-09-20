@@ -20,5 +20,8 @@ namespace Entity.Model.Security
         public DateTime DeletedAt { get; set; }
         public string Phone { get; set; }
         public bool State { get; set; }
+
+        public int IdCity { get; set; }
+        public City City{ get; set; }
     }
 }

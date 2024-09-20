@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entity.Model.Security;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,5 +12,9 @@ namespace Entity.DTO
         public int Id { get; set; }
         public string Name { get; set; }
         public bool State { get; set; }
+
+        public int IdState { get; set; }
+        public string ? States { get; set; }
+
     }
 }

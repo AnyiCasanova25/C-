@@ -10,8 +10,10 @@ namespace Entity.DTO
     public class RoleViewDto
     {
         public int Id { get; set; }
-        public Role IdRole { get; set; }
-        public View IdView { get; set; }
         public bool State { get; set; }
+        public int IdRole { get; set; }
+        public string ? Role { get; set; }
+        public int IdView { get; set; }
+        public string ? View { get; set; }
     }
 }

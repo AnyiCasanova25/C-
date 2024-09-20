@@ -7,12 +7,12 @@ namespace Data.Interfaces
 {
     public interface IStateData
     {
-        Task<State> GetById(int id);
-        Task<State> GetByName(string name);
-        Task<State> Save(State entity);
-        Task Update(State entity);
-        Task Delete(int id);
-        Task<IEnumerable<State>> GetAll();
-        Task<IEnumerable<DataSelectDto>> GetAllSelect();
+        public Task<State> GetById(int id);
+        public Task<State> GetByName(string name);
+        public Task<State> Save(State entity);
+        public Task Update(State entity);
+        public Task Delete(int id);
+        public Task<IEnumerable<State>> GetAll();
+        public Task<IEnumerable<DataSelectDto>> GetAllSelect();
     }
 }
