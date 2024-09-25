@@ -30,7 +30,7 @@ namespace Data.Implements
             context.Countries.Update(entity);
             await context.SaveChangesAsync();
         }
-         
+
         public async Task<Country> GetById(int id)
         {
             var sql = @"SELECT * FROM Countries WHERE Id = @Id ORDER BY Id ASC";
@@ -85,5 +85,15 @@ namespace Data.Implements
                 throw new Exception("Error al obtener todos los Countries", ex);
             }
         }
+        //public async Task DeleteForever(int id)
+        //{
+        //    var entity = await GetById(id);
+        //    if (entity == null)
+        //    {
+        //        throw new Exception("Registro no encontrado");
+        //    }
+        //    context.Cities.Remove(entity);
+        //    await context.SaveChangesAsync();
+        //}
     }
 }
